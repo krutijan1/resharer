@@ -34,7 +34,7 @@ def converter(src_format, source, target):
 
                 image.save(target + f.split('.')[0] + '.jpg', "JPEG")
 
-@click.group(help="CLI tool to manage full development cycle of projects")
+@click.group(help="CLI tool to manage photos and sharing")
 def cli():
     pass
 

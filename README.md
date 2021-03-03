@@ -20,6 +20,16 @@ pip install -r requirements.txt
 
 Now you are able to run the program by python main.py command, inside your virtual environment.
 
+## Help
+
+### Show available commands
+```
+python main.py --help
+```
+### Show command help
+```
+python main.py converter --help
+```
 
 ## Available Commands
 
@@ -27,4 +37,9 @@ Resharer supports several commands, each accessible through the `python main.py`
 
 ### `converter`
 
-Converts HEIC files from local folder to local folder into JPEGs.
+Converts HEIC files from local folder to local folder into JPEGs. Run with following code
+
+```
+python main.py converter
+```
+you will be prompted for details
