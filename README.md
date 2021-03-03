@@ -23,7 +23,7 @@ Now you are able to run the program by python main.py command, inside your virtu
 
 ## Available Commands
 
-Enact supports several commands, each accessible through the `enact` command and through npm aliases in **package.json**. For help on individual commands, add `--help` following the command name. The commands are:
+Resharer supports several commands, each accessible through the `python main.py` command. For help on individual commands, add `--help` following the command name. The commands are:
 
 ### `converter`
 
